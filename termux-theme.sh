@@ -24,6 +24,9 @@ I="\033[32;1m" # ijo
 C="\033[35;1m" # purple
 clear
 
+# Components
+apt install hr -y
+
 # "DELETE OLD FILES"
 echo "${B}[${P}*${B}] ${K}Clean Old Files"
 echo "${P}$(hr -)"
